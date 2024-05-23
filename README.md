@@ -1,5 +1,7 @@
 # 📚 Fokus Web Application
 
+##Figma Project: https://www.figma.com/design/dEaMv34Wd5G7TBMPo8fPlK/Projeto-Fokus?node-id=35-181&t=tTxNOlu2CntuTefM-0
+
 ## Overview
 
 Fokus is a productivity web application designed to help users optimize their focus on tasks by utilizing a timer that adjusts according to different modes: focus, short rest, and long rest. This project was developed during the "Javascript: Manipulando Elementos no DOM" course from Alura, with the guidance of the teacher Luan Alves.
