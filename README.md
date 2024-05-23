@@ -64,4 +64,4 @@ Fokus is a productivity web application designed to help users optimize their fo
 
 This project is fictional and for educational purposes only. It is not intended for commercial use.
 
-Thank you for using Fokus! Optimize your productivity and dive into what truly matters. 🎉
+Thank you for visiting my repository. Feel free to copy it and make your own adjustments! 🎉
