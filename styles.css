@@ -227,6 +227,57 @@ h1, h2, h3, h4, h5, h6 {
     visibility: hidden;
 }
 
+.app__card--work-list {
+    text-align: center;
+}
+
+.app__card--work-list-container {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.app__card--work-list-title {
+    margin-bottom: 20px;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li {
+    background-color: #333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task-list li.completed {
+    background-color: #1bbf7d;
+    text-decoration: line-through;
+}
+
+#add-task-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #6200ea;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #3700b3;
+}
+
 /* fim - toggle */
 
 /* Para Tablets */
