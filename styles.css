@@ -229,19 +229,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .app__card--work-list {
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .app__card--work-list-container {
     font-family: Arial, sans-serif;
     color: #fff;
-    
     justify-content: center;
     align-items: center;
     margin: 0;
+    width: 70%;
 }
 
 .app__card--work-list-title {
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 #task-list {
@@ -250,17 +254,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #task-list li {
-    background-color: #333;
+    background-color: #6d6d6d;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
 }
 
 #task-list li.completed {
-    background-color: #1bbf7d;
+    background-color: #036852;
     text-decoration: line-through;
 }
 
@@ -272,6 +277,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 #add-task-btn:hover {
