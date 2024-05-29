@@ -112,40 +112,51 @@ function mostrarTempo (){
 
 mostrarTempo();
 
-// script.js
-document.addEventListener('DOMContentLoaded', () => {
-    const taskList = document.getElementById('task-list');
-    const addTaskBtn = document.getElementById('add-task-btn');
+// document.addEventListener('DOMContentLoaded', () => {
+//     const taskList = document.getElementById('task-list');
+//     const addTaskBtn = document.getElementById('add-task-btn');
 
-    function createTaskElement(taskText) {
-        const li = document.createElement('li');
-        li.textContent = taskText;
+//     function createTaskElement(taskText) {
+//         const li = document.createElement('li');
+//         li.textContent = taskText;
 
-        const completeBtn = document.createElement('button');
-        completeBtn.textContent = '✔';
-        completeBtn.addEventListener('click', () => {
-            li.classList.toggle('completed');
-        });
+//         const completeBtn = document.createElement('button');
+//         completeBtn.textContent = '✔';
+//         completeBtn.addEventListener('click', () => {
+//             li.classList.toggle('completed');
+//         });
 
-        const editBtn = document.createElement('button');
-        editBtn.textContent = '✎';
-        editBtn.addEventListener('click', () => {
-            const newTaskText = prompt('Edite a tarefa:', taskText);
-            if (newTaskText !== null && newTaskText.trim() !== '') {
-                li.firstChild.textContent = newTaskText;
-            }
-        });
+//         const editBtn = document.createElement('button');
+//         editBtn.textContent = '✎';
+//         editBtn.addEventListener('click', () => {
+//             const newTaskText = prompt('Edite a tarefa:', taskText);
+//             if (newTaskText !== null && newTaskText.trim() !== '') {
+//                 li.firstChild.textContent = newTaskText;
+//             }
+//         });
 
-        li.appendChild(completeBtn);
-        li.appendChild(editBtn);
-        return li;
-    }
+//         li.appendChild(completeBtn);
+//         li.appendChild(editBtn);
+//         return li;
+//     }
 
-    addTaskBtn.addEventListener('click', () => {
-        const taskText = prompt('Digite a nova tarefa:');
-        if (taskText !== null && taskText.trim() !== '') {
-            const taskElement = createTaskElement(taskText);
-            taskList.appendChild(taskElement);
-        }
-    });
+//     addTaskBtn.addEventListener('click', () => {
+//         const taskText = prompt('Digite a nova tarefa:');
+//         if (taskText !== null && taskText.trim() !== '') {
+//             const taskElement = createTaskElement(taskText);
+//             taskList.appendChild(taskElement);
+//         }
+//     });
+// });
+
+const taskButton = document.querySelector('#add-task-btn');
+const taskList = document.querySelector('#task-list');
+let createItemInList = document.createElement("li");
+
+function addTask (){
+    taskList.appendChild(createItemInList);
+}
+
+taskButton.addEventListener('click', () => {
+    taskList.appendChild(createItemInList);
 });
