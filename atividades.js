@@ -19,3 +19,43 @@
 // function alteraCnt (contexto){
 //     img.setAttribute('src', `/imagens/${contexto}.png`);
 // }
+
+//Atividades Modulo 03
+// const botoes = document.querySelectorAll('.botao');
+// const focoBt = document.querySelector('.foco');
+// const curtoBt = document.querySelector('.descanso-curto');
+// const longoBt = document.querySelector('.descanso-longo');
+// const musicaCheck = document.querySelector('#alternar-musica');
+// const musica = new Audio('/audios/luna-rise-part-one.mp3');
+// musica.loop = true;
+
+// musicaCheck.addEventListener('change', () => {
+//     if(musica.paused){
+//         musica.play()
+//     }
+//     else {
+//         musica.pause()
+//     }
+// })
+
+// function alteraContexto (contexto){
+//     botoes.forEach(function(contexto){
+//         contexto.classList.remove('active')
+//     })
+// }
+
+
+// focoBt.addEventListener('click', () => {
+//     alteraContexto('foco');
+//     focoBt.classList.add('active');
+// })
+
+// curtoBt.addEventListener('click', () => {
+//     alteraContexto('descanso-curto');
+//     curtoBt.classList.add('active');
+// })
+
+// longoBt.addEventListener('click', () => {
+//     alteraContexto('descanso-longo');
+//     longoBt.classList.add('active');
+// })
