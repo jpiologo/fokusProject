@@ -76,6 +76,11 @@ const contagemRegressiva = () => {
     if(tempoEmSegundos <= 0){
         audioBeep.play();
         alert('Tempo finalizado');
+        const focoAtivo = html.getAttribute('data-contexto') == 'foco'
+        if (focoAtivo) {
+            const evento = new CustomEvent('focoFinalizado')
+            document.dispatchEvent(evento)
+        }
         zerar();
         return;
     }
@@ -149,4 +154,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
->>>>>>>>> Temporary merge branch 2
