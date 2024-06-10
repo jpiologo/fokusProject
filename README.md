@@ -4,6 +4,8 @@
 
 Fokus is a productivity web application designed to help users optimize their focus on tasks by utilizing a timer that adjusts according to different modes: focus, short rest, and long rest. This project was developed during the "Javascript: Manipulando Elementos no DOM" course from Alura, with the guidance of the teacher Luan Alves.
 
+![fokusHomeScreen](https://github.com/jpiologo/fokusProject/assets/122281207/297cfe99-c50d-4966-ba45-1a998091e313)
+
 ## ✨ Features
 
 - **Focus Timer** ⏰: Set a 25-minute timer to focus on tasks.
