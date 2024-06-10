@@ -4,6 +4,8 @@
 
 Fokus is a productivity web application designed to help users optimize their focus on tasks by utilizing a timer that adjusts according to different modes: focus, short rest, and long rest.
 
+Try it: https://fokus-mu-eight.vercel.app/
+
 ![fokusHomeScreen](https://github.com/jpiologo/fokusProject/assets/122281207/297cfe99-c50d-4966-ba45-1a998091e313)
 
 ## ✨ Features
