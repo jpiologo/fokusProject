@@ -44,6 +44,11 @@ Fokus is a productivity web application designed to help users optimize their fo
 5. **Pause Button** ⏸️:
    - Click "Pausar" to pause the timer at any moment.
    - Click "Começar" again to resume the timer.
+  
+6. **Add and Control your tasks** 📎:
+   - Click "Adicionar Tarefa" to add a new task, a text field will be shown for the description of the task.
+   - Click "Salvar" to save the task and manage all in your task list "Lista de Tarefas".
+   - Choose the task you want to work on by clicking it in the list.
 
 ## 💡 JavaScript Functions and Concepts Used
 
